@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Temperature, Location, and Icon -->
+        <div class="top-section">
+            <div class="temp-location">
+                <h1 class="temperature">75</h1>
+                <p class="location">Philadelphia, PA</p>
+            </div>
+            <img src="assets/sun.png" alt="Sun Icon" class="weather-icon">
+        </div>
+
+        <!-- Weather Details -->
+        <div class="weather-details">
+            <div class="detail-item">
+                <img src="assets/humidity.png" alt="Humidity Icon" class="detail-icon">
+                <div class="label">Humidity</div>
+                <div class="value">28%</div>
+            </div>
+            <div class="detail-item">
+                <img src="assets/wind.png" alt="Wind Icon" class="detail-icon">
+                <div class="label">Wind</div>
+                <div class="value">5 Mph N</div>
+            </div>
+            <div class="detail-item">
+                <img src="assets/air_quality.png" alt="Air Quality Icon" class="detail-icon">
+                <div class="label">Air Quality</div>
+                <div class="value">Safe</div>
+            </div>
+            <div class="detail-item">
+                <img src="assets/pollen.png" alt="Pollen Icon" class="detail-icon">
+                <div class="label">Pollen Count</div>
+                <div class="value">Today: Low<br>Tomorrow: High</div>
+            </div>
+            <div class="detail-item wide">
+                <div class="label">Real-time Weather Alerts</div>
+                <div class="value">None</div>
+            </div>
+        </div>
+
+        <!-- Drop-Down Arrow -->
+        <div class="dropdown-arrow">
+            <img src="assets/drop_down_arrow.png" alt="Drop-down Arrow">
+        </div>
+
+        <!-- Hourly Forecast and Tabs -->
+        <div class="bottom-section">
+            <div class="tabs">
+                <div class="tab active">Hourly</div>
+                <div class="tab">10-Day</div>
+            </div>
+            <div class="hourly-forecast">
+                <div class="hour">
+                    <div class="time">Now</div>
+                    <img src="assets/sun.png" alt="Sunny" class="small-icon">
+                    <div class="temp">76°</div>
+                </div>
+                <div class="hour">
+                    <div class="time">1PM</div>
+                    <img src="assets/rain.png" alt="Rain" class="small-icon">
+                    <div class="temp">75°</div>
+                </div>
+                <div class="hour">
+                    <div class="time">2PM</div>
+                    <img src="assets/sun.png" alt="Sunny" class="small-icon">
+                    <div class="temp">75°</div>
+                </div>
+                <div class="hour">
+                    <div class="time">3PM</div>
+                    <img src="assets/sun.png" alt="Sunny" class="small-icon">
+                    <div class="temp">74°</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
